@@ -110,21 +110,113 @@
   background: rgba(26, 34, 54, 0.95);
 }
 
-h2 {
+.project-2 {
+  background: rgba(26, 34, 54, 0.95);
+  width: 465px;
+  height: 218px;
+}
+
+.list-item {
+  background-color: #98dede;
+  margin-right: 5px;
+}
+
+.project-box {
+  right: 0;
+}
+
+.pj {
   position: absolute;
   width: 398px;
   height: 110px;
   left: 145px;
   top: 1585px;
-
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 110px;
   line-height: 100%;
-  /* identical to box height, or 110px */
-
   color: #1a2236;
-
   transform: rotate(-90deg);
+}
+
+.project-name {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 80%;
+  color: #fff;
+}
+
+.rect-46 {
+  position: absolute;
+  width: 465px;
+  height: 270px;
+  left: 0px;
+  top: 1825px;
+}
+
+.rect-27 {
+  position: absolute;
+  width: 800px;
+  height: 465px;
+  left: 0px;
+  top: 2095px;
+}
+
+.geom-2 {
+  position: absolute;
+  width: 511px;
+  height: 350px;
+  left: 464px;
+  top: 1745px;
+}
+
+.geom-5 {
+  position: absolute;
+  width: 211.7px;
+  height: 124.04px;
+  left: 0px;
+  top: 2560px;
+}
+
+.rect-47 {
+  position: absolute;
+  width: 465px;
+  height: 270px;
+  left: 799px;
+  top: 2560px;
+}
+
+.geom-3 {
+  position: absolute;
+  width: 639.75px;
+  height: 275.42px;
+  left: 800px;
+  top: 2285px;
+}
+
+.rect-26 {
+  position: absolute;
+  width: 465px;
+  height: 270px;
+  left: 975px;
+  top: 2015px;
+}
+
+.rect-25 {
+  position: absolute;
+  width: 465px;
+  height: 270px;
+  left: 975px;
+  top: 1745px;
+}
+
+.project-2 {
+  position: absolute;
+  width: 465px;
+  height: 218px;
+  left: 975px;
+  top: 1797px;
 }
