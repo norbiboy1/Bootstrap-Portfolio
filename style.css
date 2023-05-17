@@ -120,9 +120,12 @@
 }
 
 .project-2 {
+  position: absolute;
   background: rgba(26, 34, 54, 0.95);
   width: 465px;
   height: 218px;
+  left: 975px;
+  top: 1797px;
 }
 
 .list-item {
@@ -134,12 +137,13 @@
   width: 212px;
   height: 51px;
   margin-left: 60px;
-  font-family: 'Poppins', sans-serif font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
   text-align: center;
-  color: #1A2236;
+  color: #1a2236;
   margin-top: 60px;
 }
 
@@ -184,7 +188,7 @@
   position: absolute;
   width: 465px;
   height: 270px;
-  left: 0px;
+  left: 0;
   top: 1825px;
 }
 
@@ -192,7 +196,7 @@
   position: absolute;
   width: 800px;
   height: 465px;
-  left: 0px;
+  left: 0;
   top: 2095px;
 }
 
@@ -208,7 +212,7 @@
   position: absolute;
   width: 211.7px;
   height: 124.04px;
-  left: 0px;
+  left: 0;
   top: 2560px;
 }
 
@@ -244,14 +248,6 @@
   top: 1745px;
 }
 
-.project-2 {
-  position: absolute;
-  width: 465px;
-  height: 218px;
-  left: 975px;
-  top: 1797px;
-}
-
 .list-of-technologies {
   width: 1120px;
   height: 586px;
@@ -265,14 +261,19 @@
   left: 362px;
 }
 
+.row-cols-1 {
+  width: 577px;
+}
+
 #overlay {
   position: static;
   width: 289px;
   height: 289px;
-  background: #1C528A;
+  background: #1c528a;
 }
 
 #lang {
+  padding-top: 21px;
   padding-left: 20px;
   width: 170px;
   height: 135px;
@@ -300,12 +301,132 @@
 }
 
 .framework {
+  position: absolute;
+  top: 3242px;
+  left: 655px;
+}
+
+.title-frame {
+  width: 132px;
+  height: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+
+#overlay-2 {
   position: static;
   width: 289px;
   height: 289px;
-  background: #E2505C;
+  background: #e2505c;
 }
 
-#overlay-2 {}
+.skills {
+  position: absolute;
+  top: 3528px;
+  left: 362px;
+}
 
-.title-frame {}
+#overlay-3 {
+  position: static;
+  width: 289px;
+  height: 289px;
+  background: #febf52;
+}
+
+.title-skills {
+  width: 55px;
+  height: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+
+#skills-list {
+  padding-top: 21px;
+  width: 220px;
+  height: 135px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+  color: #fff;
+  padding-left: 20px;
+}
+
+.dots {
+  position: absolute;
+  top: 3478px;
+  left: 521px;
+}
+
+.shape {
+  position: absolute;
+  top: 3416px;
+  left: 682px;
+}
+
+#overlay-4 {
+  position: static;
+  width: 289px;
+  height: 289px;
+  background: #fff;
+}
+
+.resume {
+  position: absolute;
+  top: 3100px;
+  left: 825px;
+  width: 446px;
+  height: 303px;
+}
+
+.resume h2 {
+  width: 295px;
+  height: 110px;
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 110px;
+  line-height: 100%;
+  color: #1a2236;
+  margin-bottom: 0;
+}
+
+.resume p {
+  width: 446px;
+  height: 63px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1a2236;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.resume .btn {
+  width: 254px;
+  height: 70px;
+  background: #1a2236;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #fff;
+}
+
+#download {
+  margin-left: 24px;
+}
