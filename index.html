@@ -44,52 +44,58 @@
       </ul>
     </nav>
 
-    <div class="container">
-      <div class="row">
-        <div class="col col1">
-          <h1>Norbert Siko</h1>
-          <p class="lead">
-            Hello! I am a software developer! I can help you build a product,
-            feature or website. Take a look at my work. If you like what you see
-            and have a project you need coded, don’t hesitate and contact me.
-          </p>
-          <button type="button" class="btn btn-lg">Start collaboration</button>
-        </div>
-        <div class="col bg-col">
-          <img
-            src="images/image-geometry_1.svg"
-            id="bg-design"
-            alt="background design"
-          />
-          <img src="images/image_dots.png" id="dots" alt="dots" />
-        </div>
-      </div>
-    </div>
-    <div class="projects">
-      <h2 class="pj">Projects</h2>
-      <img class="img-dots" src="./images/image_dots.svg" alt="dots" />
-      <div class="project-box">
-        <img
-          src="./images/Rectangle 21.png"
-          alt="laptop"
-          class="laptop align-items-center"
-        />
-        <div class="project-1">
-          <span class="project-name m-t-3">Project name goes here</span>
-          <ul class="tech d-flex list-unstyled col-white">
-            <li class="list-item px-3 py-2">HTML/CSS</li>
-            <li class="list-item px-3 py-2">Ruby on Rails</li>
-            <li class="list-item px-3 py-2">Javascript</li>
-          </ul>
-          <div class="see-project-btn">
-            <button class="see-project border-0 py-2 px-3">
-              See Project<img src="./images/ic_arrow_right.svg" alt="arrow" />
+    <section class="about-me">
+      <div class="container">
+        <div class="row">
+          <div class="col col1">
+            <h1>Norbert Siko</h1>
+            <p class="lead">
+              Hello! I am a software developer! I can help you build a product,
+              feature or website. Take a look at my work. If you like what you
+              see and have a project you need coded, don’t hesitate and contact
+              me.
+            </p>
+            <button type="button" class="btn btn-lg">
+              Start collaboration
             </button>
+          </div>
+          <div class="col bg-col">
+            <img
+              src="images/image-geometry_1.svg"
+              id="bg-design"
+              alt="background design"
+            />
+            <img src="images/image_dots.png" id="dots" alt="dots" />
           </div>
         </div>
       </div>
-    </div>
-    <section>
+    </section>
+
+    <section id="bg-images">
+      <div class="container">
+        <h2 class="pj">Projects</h2>
+        <img class="img-dots" src="./images/image_dots.svg" alt="dots" />
+        <div class="project-box">
+          <img
+            src="./images/Rectangle 21.png"
+            alt="laptop"
+            class="laptop align-items-center"
+          />
+          <div class="project-1">
+            <span class="project-name m-t-3">Project name goes here</span>
+            <ul class="tech d-flex list-unstyled col-white">
+              <li class="list-item px-3 py-2">HTML/CSS</li>
+              <li class="list-item px-3 py-2">Ruby on Rails</li>
+              <li class="list-item px-3 py-2">Javascript</li>
+            </ul>
+            <div class="see-project-btn">
+              <button class="see-project border-0 py-2 px-3">
+                See Project<img src="./images/ic_arrow_right.svg" alt="arrow" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
       <img src="./images/Rectangle 46.png" alt="picture" class="rect-46" />
       <img src="./images/Rectangle 27.png" alt="picture" class="rect-27" />
       <img src="./images/image-geometry_2.png" alt="" class="geom-2" />
@@ -106,9 +112,57 @@
           <li class="list-item px-3 py-2">+1</li>
         </ul>
         <div class="see-project-btn">
-            <button class="see-project border-0 py-2 px-3">
-              See this project<img src="./images/ic_arrow_right.svg" alt="arrow" />
-            </button>
+          <button class="see-project border-0 py-2 px-3">
+            See this project<img
+              src="./images/ic_arrow_right.svg"
+              alt="arrow"
+            />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="list-of-technologies">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2" style="">
+          <div class="col mb-4">
+            <img
+              src="images/ic_languages.svg"
+              class="languages"
+              alt="languages icon"
+            />
+            <div class="card-img-overlay" id="overlay">
+              <div class="card-body">
+                <h2 class="card-title title-lang">Languages</h2>
+                <ul id="lang">
+                  <li class="card-text">JavaScript (ES6+)</li>
+                  <li class="card-text">Ruby</li>
+                  <li class="card-text">HTML</li>
+                  <li class="card-text">CSS</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <img
+              src="images/ic_framework.svg"
+              class="framework"
+              alt="framework icon"
+            />
+            <div class="card-img-overlay" id="overlay-2">
+              <div class="card-body">
+                <h2 class="card-title title-frame">Frameworks</h2>
+                <ul id="lang">
+                  <li class="card-text">React.js</li>
+                  <li class="card-text">Ruby on Rails</li>
+                  <li class="card-text">RSpec</li>
+                  <li class="card-text">Capibara</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </body>

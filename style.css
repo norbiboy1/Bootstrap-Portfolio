@@ -1,6 +1,7 @@
 :root {
   margin: 0;
   padding: 0;
+  height: 4600px;
 }
 
 .nav-item:first-child {
@@ -16,6 +17,10 @@
   line-height: 24px;
   text-align: right;
   color: #1a2236;
+}
+
+.about-me {
+  height: 890px;
 }
 
 .col {
@@ -85,6 +90,10 @@
   top: 802px;
 }
 
+#bg-images {
+  height: 1855px;
+}
+
 .img-dots {
   position: absolute;
   width: 160px;
@@ -118,7 +127,20 @@
 
 .list-item {
   background-color: #98dede;
-  margin-right: 5px;
+  margin-right: 20px;
+}
+
+.see-project {
+  width: 212px;
+  height: 51px;
+  margin-left: 60px;
+  font-family: 'Poppins', sans-serif font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #1A2236;
+  margin-top: 60px;
 }
 
 .project-box {
@@ -129,8 +151,8 @@
   position: absolute;
   width: 398px;
   height: 110px;
-  left: 145px;
-  top: 1585px;
+  left: 0;
+  top: 1324px;
   font-family: "Playfair Display", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -141,12 +163,21 @@
 }
 
 .project-name {
+  display: block;
+  width: 726px;
+  height: 48px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
   line-height: 80%;
   color: #fff;
+  margin: 60px 0 46px 60px;
+}
+
+.tech {
+  margin-left: 60px;
+  margin-bottom: 0;
 }
 
 .rect-46 {
@@ -220,3 +251,61 @@
   left: 975px;
   top: 1797px;
 }
+
+.list-of-technologies {
+  width: 1120px;
+  height: 586px;
+  margin-left: 160px;
+  margin-top: 216px;
+}
+
+.languages {
+  position: absolute;
+  top: 3236px;
+  left: 362px;
+}
+
+#overlay {
+  position: static;
+  width: 289px;
+  height: 289px;
+  background: #1C528A;
+}
+
+#lang {
+  padding-left: 20px;
+  width: 170px;
+  height: 135px;
+}
+
+.title-lang {
+  width: 116px;
+  height: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.card-text {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+  color: #fff;
+}
+
+.framework {
+  position: static;
+  width: 289px;
+  height: 289px;
+  background: #E2505C;
+}
+
+#overlay-2 {}
+
+.title-frame {}
