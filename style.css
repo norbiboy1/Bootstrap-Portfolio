@@ -120,9 +120,12 @@
 }
 
 .project-2 {
+  position: absolute;
   background: rgba(26, 34, 54, 0.95);
   width: 465px;
   height: 218px;
+  left: 975px;
+  top: 1797px;
 }
 
 .list-item {
@@ -132,13 +135,22 @@
 
 .see-project {
   margin-left: 60px;
+<<<<<<< HEAD
   font-family: "Poppins", sans-serif;
+=======
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+>>>>>>> 82b97b35a02329aa47e6e740cd3bb46ee3f73f24
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
   text-align: center;
   color: #1a2236;
+<<<<<<< HEAD
   margin-top: 25px;
+=======
+  margin-top: 60px;
+>>>>>>> 82b97b35a02329aa47e6e740cd3bb46ee3f73f24
 }
 
 .project-box {
@@ -192,7 +204,7 @@
   position: absolute;
   width: 465px;
   height: 270px;
-  left: 0px;
+  left: 0;
   top: 1825px;
 }
 
@@ -200,7 +212,7 @@
   position: absolute;
   width: 800px;
   height: 465px;
-  left: 0px;
+  left: 0;
   top: 2095px;
 }
 
@@ -216,7 +228,7 @@
   position: absolute;
   width: 211.7px;
   height: 124.04px;
-  left: 0px;
+  left: 0;
   top: 2560px;
 }
 
@@ -252,14 +264,6 @@
   top: 1745px;
 }
 
-.project-2 {
-  position: absolute;
-  width: 465px;
-  height: 218px;
-  left: 975px;
-  top: 1797px;
-}
-
 .list-of-technologies {
   width: 1120px;
   height: 586px;
@@ -273,6 +277,10 @@
   left: 362px;
 }
 
+.row-cols-1 {
+  width: 577px;
+}
+
 #overlay {
   position: static;
   width: 289px;
@@ -281,6 +289,7 @@
 }
 
 #lang {
+  padding-top: 21px;
   padding-left: 20px;
   width: 170px;
   height: 135px;
@@ -308,20 +317,38 @@
 }
 
 .framework {
+  position: absolute;
+  top: 3242px;
+  left: 655px;
+}
+
+.title-frame {
+  width: 132px;
+  height: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+
+#overlay-2 {
   position: static;
   width: 289px;
   height: 289px;
   background: #e2505c;
 }
 
-#overlay-2 {
-}
-
-.title-frame {
-}
 
 .contact {
   background-color: #f9f9fa;
+  height: 950px;
+  width: 1440px;
+  left: 0px;
+  top: 3782px;
+  border-radius: 0px;
+
 }
 
 .geom-6 {
