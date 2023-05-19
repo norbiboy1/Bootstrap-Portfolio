@@ -124,8 +124,8 @@
 
     <section class="list-of-technologies d-flex justify-content-space-between">
       <div class="container">
-        <div class="row row-cols-1 row-cols-md-2" style="">
-          <div class="col mb-4">
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="col">
             <img
               src="images/ic_languages.svg"
               class="languages"
@@ -200,50 +200,70 @@
         </div>
       </div>
     </section>
+
     <section class="contact">
-      <img src="./images/image-geometry_6.png" alt="" class="geom-6" />
-      <img src="./images/image-geometry_7.png" alt="" class="geom-7" />
+      <img
+        src="./images/image-geometry_6.png"
+        alt="geometry 6"
+        class="geom-6"
+      />
+      <img
+        src="./images/image-geometry_7.png"
+        alt="geometry 7"
+        class="geom-7"
+      />
       <div class="contact-box">
-        <span class="get-started">Get Started</span>
+        <h2 class="get-started">Get Started</h2>
         <p class="contact-note">
           I'm always interested in hearing about new projects, so if you'd like
           to chat please get in touch.
         </p>
-        <form action="" class="contact-form">
-          <div class="input-fields d-flex justify-content-between">
-            <input
-              type="text"
-              required
-              placeholder="Full Name"
-              maxlength="30"
-              class="name py-2 pl-3 input"
-            />
-            <input
-              type="email"
-              name="email"
-              id="email"
-              required
-              placeholder="Email"
-              maxlength="30"
-              class="email m-r-2 py-2 pl-3 input"
-            />
-          </div>
-          <textarea
-            name="textarea"
-            id="textarea"
-            cols="30"
-            rows="10"
-            required
-            placeholder="Enter your message here..."
-            maxlength="500"
-            class="input h-15"
-          ></textarea>
-          <button class="start-collab px-3 py-2 border-0 text-white col-2">
-            Start collaboration
-          </button>
-        </form>
       </div>
+
+      <form
+        action="https://formspree.io/f/xjvdloba"
+        method="POST"
+        class="contact-form"
+      >
+        <div class="input-fields d-flex justify-content-space-between">
+          <label for="name" id="lab1">Your name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            required
+            placeholder="Anastasiia"
+            maxlength="30"
+            class="name py-2 pl-3 input"
+          />
+          <label for="email" id="lab2">Your email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="anastasiia@gm..."
+            maxlength="30"
+            class="email m-r-2 py-2 pl-3 input"
+          />
+        </div>
+        <label for="message">Your message</label>
+        <textarea
+          name="textarea"
+          id="message"
+          cols="30"
+          rows="10"
+          required
+          placeholder="Enter your message here..."
+          maxlength="500"
+          class="input h-15"
+        ></textarea>
+        <button type="submit" class="start-collab px-3 py-2">
+          Start collaboration
+        </button>
+      </form>
     </section>
+
     <footer class="footer d-flex justify-content-between">
       <div class="get-my-cv d-flex p-5 text-white w-5 ml-5">
         <span class="cv w-10">Get my cv</span>
